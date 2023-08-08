@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(201, 173, 229);
+  background-color: rgb(236, 219, 253);
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
@@ -41,8 +41,17 @@ body {
 
 .toast {
   background-color: white;
-  color: rebeccapurple;
+
   border-radius: 5px;
   padding: 1rem 2rem;
   margin: 0.5rem;
 }
+
+.toast.info {
+  color: rebeccapurple;
+}
+.toast.success {
+  color: green;
+}
+
+.toast.;
